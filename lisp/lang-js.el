@@ -1,6 +1,9 @@
 ;;; lang-js.el --- JavaScript / TypeScript / Web -*- lexical-binding: t; -*-
 
+;;; Commentary:
 ;; Indentation defaults
+
+;;; Code:
 (setq-default js-indent-level 2
               typescript-indent-level 2)
 
@@ -40,3 +43,4 @@
         web-mode-markup-indent-offset 2))
 
 (provide 'lang-js)
+;;; lang-js.el ends here.
