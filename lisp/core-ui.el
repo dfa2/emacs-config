@@ -4,6 +4,10 @@
 (add-to-list 'default-frame-alist '(undecorated . t))
 (add-to-list 'default-frame-alist '(internal-border-width . 10)) ;; optional padding
 
+(set-face-attribute 'default nil
+                    :font "JetBrainsMono Nerd Font"
+                    :height 110)  ;; adjust size
+
 ;; Doom modeline
 (use-package doom-modeline
   :ensure t
@@ -20,6 +24,10 @@
   :ensure t
   :init
   (load-theme 'doom-one t))
+
+;; Nerd font
+(setq nerd-icons-font-family "JetBrainsMono Nerd Font")
+
 
 ;; Nyan cat in the mode line
 (use-package nyan-mode

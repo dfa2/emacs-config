@@ -1,8 +1,11 @@
 ;;; core-packages.el --- Package management -*- lexical-binding: t; -*-
-(require 'package)
+;;; Commentary:
+;; Core packages that should always be loaded
 
 
 ;;; Code:
+(require 'package)
+
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
 (setq package-quickstart t)
 
@@ -18,3 +21,4 @@
 
 
 (provide 'core-packages)
+;;; core-packages.el ends here
