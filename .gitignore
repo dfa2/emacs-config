@@ -8,6 +8,7 @@ eln-cache/
 straight/
 .cask/
 quelpa/
+package-quickstart.el
 
 *.elc
 *.eln
