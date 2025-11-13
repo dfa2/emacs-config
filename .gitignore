@@ -1,0 +1,51 @@
+# --------------------------------------------------
+# Emacs config repo: ignore generated stuff
+# --------------------------------------------------
+
+# Packages and compiled code
+elpa/
+eln-cache/
+straight/
+.cask/
+quelpa/
+
+*.elc
+*.eln
+
+# Auto-save & backup files
+*~
+# Auto-save files like #foo#
+\#*\#
+# Lockfiles
+.\#*
+
+auto-save-list/
+
+# Transient / cache / history data
+transient/
+eshell/
+url/
+tramp/
+network-security.data
+projectile-bookmarks.eld
+projectile.cache
+recentf
+saveplace
+smex-items
+company-statistics-cache.el
+lsp-session-v1
+lsp-log*
+.eglot/
+
+# Per-machine / local config and state
+local/
+var/
+cache/
+
+# Customization files you don't want in git
+custom.el
+custom-*.el
+
+# Misc OS/editor noise
+.DS_Store
+Thumbs.db
